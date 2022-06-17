@@ -19,7 +19,7 @@ class TestController extends Controller
     
     public function index()
     {
-        $profiles = ["Amal", "Kamal", "Nimal", "Sadun"];
+        $profiles = ["Amal", "Kamal", "Nimal", "Sadun", "Nimal"];
         return response()->json()->status($profiles);
     }
 }
